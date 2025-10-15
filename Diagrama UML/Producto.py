@@ -1,5 +1,5 @@
 # classe producto
-class Producto:
+class Productos:
     def __init__(self, Precio, Titulo, Autor, Editorial, Año_edición, Preferencias):
         self.Precio = Precio
         self.Titulo = Titulo
@@ -22,16 +22,5 @@ class Producto:
         print(f"Precio: ${self.Precio:,}")
         print(f"Preferencias: {self.Preferencias}")
         
-# Libros
-Libro1 = Libro(30000,
-"El ironico",
-"El vago",
-"Editorial SENA",
-2025,
-"Tecnologia",
-"Ciencia\n")
 
-Libro1.vender()
-Libro1.comprar()
-Libro1.ver_catalogo_libro()
         

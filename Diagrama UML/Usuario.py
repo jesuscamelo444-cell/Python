@@ -1,5 +1,5 @@
 # clase usuario
-class Usuario:
+class Usuarios:
     def __init__(self, Nombre, Apellido, No_cuenta, Dirección, Loing, Password):
         self.Nombre = Nombre
         self.Apellido = Apellido
@@ -25,15 +25,3 @@ class Usuario:
     def realizar_reclamación(self):
         print(f"El usuario {self.Nombre}  ha realizado una reclamación")
         
-# Usuarios
-usuario1 = Usuario("Jesus",
-"Camelo",
-8881234,
-"cra 4 #34-34",
-"Jesus123",
-123455)
-
-usuario1.leer()
-usuario1.comprar(servidor1)
-usuario1.vender(servidor1)
-usuario1.realizar_reclamación()
