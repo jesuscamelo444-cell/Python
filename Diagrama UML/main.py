@@ -1,6 +1,6 @@
 from Clases import Servidor, Usuarios, Libros, Revista, ArticuloSegundaMano, LibroSegundaMano, RevistaSegundaMano, Novedades, ArticuloOnline, Procesador, indexador, Recolector, Hilo, Editorial
 
-        # Servidor       
+# Servidor       
 servidor1 = Servidor()
 
 # Usuarios
@@ -130,4 +130,5 @@ hilo.busca_novedades(recolector, editorial)
 print()
 recolector1 = Recolector()
 recolector1.envia_novedades(editorial)
+
 procesador.notificar_novedades(recolector1, editorial)
